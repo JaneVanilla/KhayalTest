@@ -1,0 +1,70 @@
+.page-header {
+	padding: 20px 0;
+	background: #1d1e20;
+	color: #fff;
+}
+.page-header__top {
+	position: relative;
+	display: flex;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-bottom: 40px;
+}
+.page-header__logo {
+	font-size: 30px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+}
+.page-header__img {
+	margin-right: 15px;
+}
+.page-header__logo-text {
+	position: relative;
+	top: -10px;
+}
+/*End page-header___top*/
+
+.page-header__greetig {
+	color: #606368;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.page-header__text {
+	font-size: 30px;
+}
+.page-header__company-name {
+	color: #E5BA1D;
+}
+.page-header__link {
+	color: #606368;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+@media (min-width: 768px) {
+	.page-header__top  {
+		margin-bottom: 50px;
+	}
+	.page-header {
+		padding-top: 60px;
+		padding-bottom: 80px;
+	}
+	.page-header__text  {
+		width: 600px;
+		font-size: 35px;
+	}
+}
+@media (min-width: 1200px) {
+	.page-header__top  {
+		margin-bottom: 90px;
+	}
+	.page-header {
+		padding-top: 94px;
+		padding-bottom: 140px;
+	}
+	.page-header__text {
+		width: 880px;
+		font-size: 48px;
+	}
+}

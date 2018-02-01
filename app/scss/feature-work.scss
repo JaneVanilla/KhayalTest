@@ -1,0 +1,32 @@
+.feature-work__img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.feature-work__img:last-child {
+	margin-bottom: 0;
+	
+}
+@media (min-width: 768px) {
+	.feature-work .page-elements__title {
+		text-align: center;
+	}
+	.feature-work__img {
+		width: 60%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.feature-work .page-elements__title {
+		text-align: left;
+	}
+	.feature-work__img {
+		display: inline-block;
+		width: auto;
+		margin: 0;
+	}
+	.feature-work__img:first-child,
+	 .feature-work__img:nth-child(4) {
+		width: 670px;
+	}
+}
