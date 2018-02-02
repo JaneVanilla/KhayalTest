@@ -206,13 +206,41 @@ button {
   color: #606368;
   margin-bottom: 60px; }
 
+@keyframes btnAnimation {
+  0% {
+    -webkit-box-shadow: 0px 0px 0px #e5ba1e;
+    box-shadow: 0px 0px 0px #e5ba1e; }
+  100% {
+    -webkit-box-shadow: 0px 0px 30px #e5ba1e;
+    box-shadow: 0px 0px 30px #e5ba1e; } }
+
 .page-footer__btn {
   display: block;
   margin: 0 auto;
   margin-bottom: 50px;
   padding: 12px 70px;
   color: #e5ba1e;
-  border: 1px solid #e5ba1e; }
+  border: 1px solid #e5ba1e;
+  -webkit-animation-name: btnAnimation;
+  -moz-animation-name: btnAnimation;
+  -o-animation-name: btnAnimation;
+  animation-name: btnAnimation;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -moz-animation-direction: alternate;
+  -o-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  -o-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; }
 
 /*start page-footer__bottom*/
 .page-footer__bottom {
