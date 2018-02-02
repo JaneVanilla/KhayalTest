@@ -31,12 +31,12 @@
 .page-nav__items {
 	padding: 10px;
 	cursor: pointer;
-	border-bottom: 1px solid #1d1e20;
+	border-bottom: 1px solid $darkBg;
 }
 .page-nav__link {
 	text-decoration: none;
 	text-transform: none;
-	color: #1d1e20;
+	color: $darkBg;
 	font-weight: bold;
 }
 .page-nav__showbtn {

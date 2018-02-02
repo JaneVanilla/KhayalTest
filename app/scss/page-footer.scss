@@ -1,7 +1,6 @@
 .page-footer {
 	padding-top: 40px;
-	padding-bottom: 20px;
-	background: #1D1E20;
+	background: $darkBg;
 }
 .page-footer .page-elements__title{
 	margin-bottom: 35px;
@@ -9,7 +8,7 @@
 }
 .page-footer__text {
 	text-align: center;
-	color: #606368;
+	color: $grey;
 	margin-bottom: 60px;
 }
 .page-footer__btn {
@@ -17,8 +16,8 @@
 	margin: 0 auto;
 	margin-bottom: 50px;
 	padding: 12px 70px;
-	color:  #e3bb1e;
-	border: 1px solid  #e3bb1e;
+	color:  $yellowBtn;
+	border: 1px solid  $yellowBtn;
 }
 /*start page-footer__bottom*/
 
@@ -29,8 +28,7 @@
 	        flex-direction: column-reverse;
 	 -webkit-align-items: center;
 	         align-items: center;
-	 padding-top: 5px;
-	color: #606368;
+	color: $grey;
 }
 .page-footer__icon-list {
 	margin: 0;
@@ -67,8 +65,9 @@
 	        flex-direction: row;
 	-webkit-justify-content: space-between;
 	        justify-content: space-between;
-	padding: 32px 0;
-	color: #606368;
+	color: $grey;
+	padding-bottom: 10px;
+	padding-top: 15px;
 }
 }
 

@@ -1,6 +1,6 @@
 .page-header {
 	padding: 20px 0;
-	background: #1d1e20;
+	background: $darkBg;
 	color: #fff;
 }
 .page-header__top {
@@ -26,7 +26,7 @@
 /*End page-header___top*/
 
 .page-header__greetig {
-	color: #606368;
+	color: $grey;
 	text-transform: uppercase;
 	font-size: 12px;
 }
@@ -34,10 +34,10 @@
 	font-size: 30px;
 }
 .page-header__company-name {
-	color: #E5BA1D;
+	color: $yellowBtn;
 }
 .page-header__link {
-	color: #606368;
+	color: $grey;
 	text-decoration: none;
 	font-size: 12px;
 }
